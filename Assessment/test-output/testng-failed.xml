@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="stepdefinition.LoanEligibility">
+        <methods>
+          <include name="User_is_landing_on_the_ANZ_Loan_Calculator_page"/>
+          <include name="User_clicksonAppltype_selectsNoofDepdants_clicksonProptopay"/>
+        </methods>
+      </class> <!-- stepdefinition.LoanEligibility -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
